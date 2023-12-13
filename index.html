@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/logo.svg">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <title>AMG Club</title>
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header-video">
+            <video muted autoplay loop src="./assets/header.mp4">Presentational video</video>
+        </div>
+        <nav class="nav">
+            <div class="nav__inner">
+                <ul class="nav__links">
+                    <li><a href="./gallery.html">GALLERY</a></li>
+                    <hr />
+                    <li><a href="./contacts.html">CONTACTS</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="header__content">
+            <h1 class="header__title">Welcome to <img src="./assets/logo.svg" alt="logo"> Club!</h1>
+            <p class="header__info">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />Dolorum repudiandae asperiores nulla a eaque ea,<br />eligendi hic magnam expedita qui mollitia eius officiis dolorem ducimus maxime excepturi fugiat, delectus quos?<br />Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus expedita dolores rem cupiditate voluptatem?<br />Repudiandae deleniti magnam iusto placeat delectus nostrum corrupti similique vitae ipsum architecto explicabo facere, velit quas.</p>
+            <button onclick="scrollToElem()" class="header__button"><img src="./assets/arrow.png" alt="arrow"></button>
+        </div>
+    </header>
+    <div class="ticker" id="content-start">
+        <div class="ticker__wrapper">
+            <div class="ticker__item"><img src="./assets/logo.svg" alt="logo"></div>
+            <div class="ticker__item"><img src="./assets/logo.svg" alt="logo"></div>
+            <div class="ticker__item"><img src="./assets/logo.svg" alt="logo"></div>
+            <div class="ticker__item"><img src="./assets/logo.svg" alt="logo"></div>
+            <div class="ticker__item"><img src="./assets/logo.svg" alt="logo"></div>
+            <div class="ticker__item"><img src="./assets/logo.svg" alt="logo"></div>
+            <div class="ticker__item"><img src="./assets/logo.svg" alt="logo"></div>
+            <div class="ticker__item"><img src="./assets/logo.svg" alt="logo"></div>
+            <div class="ticker__item"><img src="./assets/logo.svg" alt="logo"></div>
+        </div>
+    </div>
+    <main class="main">
+        <h2 class="main__title">GALLERY</h2>
+        <section class="main__content">
+            <div class="main__img-block">
+                <div class="img-card"><img src="./assets/1.jpg" alt="image"></div>
+                <div class="img-card"><img src="./assets/2.jpg" alt="image"></div>
+                <div class="img-card"><img src="./assets/3.jpg" alt="image"></div>
+            </div>
+            <div class="main__img-block">
+                <div class="img-card"><img src="./assets/4.jpg" alt="image"></div>
+                <div class="img-card"><img src="./assets/5.jpg" alt="image"></div>
+                <div class="img-card"><img src="./assets/6.jpg" alt="image"></div>
+            </div>
+            <div class="main__img-block main__img-block_hidden">
+                <div class="img-card"><img src="./assets/7.jpg" alt="image"></div>
+                <div class="img-card"><img src="./assets/8.jpg" alt="image"></div>
+                <div class="img-card"><img src="./assets/9.jpg" alt="image"></div>
+            </div>
+            <button onclick="load()" class="main__button">Load More</button>
+        </section>
+    </main>
+</body>
+</html>
